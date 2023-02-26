@@ -1,0 +1,75 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+    font-family:"lato", sans-serif;
+    font-weight: 500;
+  line-height: 1.9em;
+  color: #1b1918;
+}
+.pimg1{
+    background-image:url(images/jagannath.jpg) ;
+    min-height: 100%;
+    
+}
+.pimg2{
+    background-image: url(images/nature.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(images/jai-jagannath.jpg);
+    min-height: 400px;
+}
+.pimg4{
+    background-image:url(images/images.jpeg) ;
+    min-height: 100%;
+    
+}
+
+.pimg1,.pimg2, .pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+.textBag{
+    background: #313131;
+    color: #fff;
+    padding: 18px;
+    margin: ;
+}
+.sec1{
+    padding: 50px 80px;
+    text-align: center;
+}
+.secuper{
+    background-color: #1e1d1d;
+    color: #ddd;
+}
+.sec-dark{
+
+}
+.gtext{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align:center   ;
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+a.hover{
+    text-decoration:none;
+}
